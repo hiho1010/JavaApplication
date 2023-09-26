@@ -44,4 +44,17 @@ public class MyFrameTest {
   }
 }
 ```
-+ 
+---
+### 프레임에 컴포넌트 추가하기
++ add라는 메소드를 많이 사용하게 될 예정이다.
+---
+### 우리가 상속에서 살펴보았듯이 조상클래스가 제공하는 메소드들은 자식 클래스로 사용할 수 있다.
+> Jframe 클래스의 조상 클래스가 가지고 있는 메소드들이 사용되는 
++ `add(component)` : 프레임에 컴포넌트를 추가한다.
++ `setLocation(s, y)` : 
++ `setIconImage(IconImage)` : 윈도우 시스템에 표시할 아이콘을 알려준다.
++ `setTitle()` : 
+---
+# 배치관리자
++ `FLOWLAYOUT` : 순서대로 버튼을 넣으면 칸에 맞게 자동으로 들어간다. Default는 가운데이다.
++ `BOARDERLAYOUT`
