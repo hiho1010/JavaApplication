@@ -29,4 +29,49 @@ class MyFrame extends JFrame {
 
   + `JPanel`을`MyFrame`에 전역으로 선언하는 이유를 아는가?
     + 클래스 속에는 데이터와 메소드가 있는데 특정 메소드 안에 선언하게 되면 다른 메소드에서 사용하려고 하면 따로 선언해야 한다.
+
++ KeyEvent에서 VK는 'Virtual KeyBoard'를 의미한다.
+
+```java
+
+```
+
+패널이 입력을 받으려면 반드시 `setFocusable(true)`를 호출하여야 한다.
+
+마우스와 마우스이벤트
++ 마우스 : Clicked, Entered, Exited, Pressed, Released
+  + press
+  + typed
+  + release
++ 키보드
   + 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
